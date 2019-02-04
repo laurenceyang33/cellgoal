@@ -1,0 +1,14 @@
+*.mtx
+*.log
+*.pyc
+admm/build/*
+admm/debug/*
+admm/profile/*
+admm/acc/*
+addm/gpu/*
+*.out
+*.egg-info
+*.bak
+*.csv
+*.json
+*.stats
