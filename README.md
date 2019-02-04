@@ -5,7 +5,7 @@ Online Resource for
 
 ## Requirements for ADMM solver
 1. Fortran compiler.
-	- tested on PGI 18.4: required for OpenACC-based parallelization
+	- tested on PGI 18.4 and 18.10: required for OpenACC-based parallelization
 	- tested on gfortran 8.2.0
 1. cmake
 1. make
