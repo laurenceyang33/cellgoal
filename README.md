@@ -5,7 +5,7 @@ Online Resource for
 
 ## Requirements for ADMM solver
 1. Fortran compiler.
-	- tested on PGI 18.4: required for OpenACC-based parallelization
+	- tested on PGI 18.4 and 18.10: required for OpenACC-based parallelization
 	- tested on gfortran 8.2.0
 1. cmake
 1. make
@@ -19,3 +19,17 @@ Online Resource for
 	- to load metabolic models
 	- to generate synthetic fluxes
 	- to validate the estimated goal reaction
+	
+## Installation
+1. Install MA57 linear solver
+   1. it needs metis-4, not metis-5 that is commonly in package managers. Get metis-4.0.3 from [Karypis lab](http://glaros.dtc.umn.edu/gkhome/fsroot/sw/metis/OLD).
+
+### ADMM solver
+1. cd admm
+1. mkdir build
+1. cd build
+1. cmake ..
+1. make
+
+### Test suite
+1. python setup.py develop
