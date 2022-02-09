@@ -1,7 +1,10 @@
 # Cellgoal project
 
-Online Resource for 
-**Estimating Cellular Goals from High-Dimensional Biological Data**
+*Online Resource for:*
+
+L Yang, MA Saunders, JC Lachance, BO Palsson, J Bento (2019). **Estimating Cellular Goals from High-Dimensional Biological Data.** 
+[In The 25th ACM SIGKDD Conference on Knowledge Discovery and Data Mining pp. 2202-2211](https://doi.org/10.1145/3292500.3330775) | 
+[arXiv :1807.04245](https://arxiv.org/abs/1807.04245)
 
 ## Requirements for ADMM solver
 1. Fortran compiler.
